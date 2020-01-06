@@ -1,4 +1,4 @@
-name: Github Actions Example CI
+name: mahendrabagul-gihub-client CI
 
 on: [push]
 
