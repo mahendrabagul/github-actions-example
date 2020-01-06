@@ -1,4 +1,4 @@
-# github-actions-example
-github-actions-example Spring boot maven project
+# mahendrabagul-github-client
+mahendrabagul-github-client Spring boot maven project
 
-Github Actions + Github Packages demo
+It includes Github Actions + Github Packages demo
