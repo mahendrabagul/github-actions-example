@@ -1,4 +1,4 @@
-package io.github.mahendrabagul.githubactionsexample;
+package io.github.mahendrabagul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package io.github.mahendrabagul.githubactionsexample.service;
+package io.github.mahendrabagul.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,10 +14,10 @@ public class GithubClient {
         this.restTemplate = restTemplate;
     }
 
-    public String callApi(String userName) {
-        String GITHUB_URL = "https://api.github.com/users/{USER_NAME}";
+    public String callApi() {
+        String GITHUB_URL = "https://api.github.com/users/mahendrabagul";
         ResponseEntity<String> response =
-                restTemplate.getForEntity(GITHUB_URL.replace("{USER_NAME}", userName), String.class);
+                restTemplate.getForEntity(GITHUB_URL, String.class);
         return response.getBody();
     }
 }
